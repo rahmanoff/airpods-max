@@ -213,10 +213,14 @@ body {
 }
 
 .audio {
-  position: relative;
+  /* position: relative; */
+  background-image: url(../images/man-with-headphones-and-sounds.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
 
-.audio::before {
+/* .audio::before {
   content: '';
   background-image: url(../images/man-with-ipad.jpg);
   background-repeat: no-repeat;
@@ -245,10 +249,10 @@ body {
   left: 0;
   right: 0;
   z-index: -1;
-}
+} */
 
 .audio__inner {
-  min-height: 200vh;
+  min-height: 220vh;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -276,8 +280,6 @@ body {
 }
 
 .footer {
-  position: relative;
-  padding: 250px 0 40px;
+  padding: 50px 0 40px;
   background-color: #000;
-  z-index: -2;
 }

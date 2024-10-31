@@ -429,3 +429,9 @@ body {
     font-size: 50px;
   }
 }
+
+@media (max-width: 325px) {
+  .title {
+    font-size: 45px;
+  }
+}
